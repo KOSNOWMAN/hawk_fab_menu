@@ -75,7 +75,7 @@ class _HawkFabMenuState extends State<HawkFabMenu>
 
   Widget _buildMenuItemList() {
     return Positioned(
-      bottom: 80,
+      top: 100,
       right: 15,
       child: ScaleTransition(
         scale: AnimationController(
@@ -160,7 +160,7 @@ class _HawkFabMenuState extends State<HawkFabMenu>
 
   Widget _buildMenuButton(BuildContext context) {
     return Positioned(
-      bottom: 10,
+      top: 20,
       right: 10,
       child: FloatingActionButton(
         child: AnimatedIcon(
