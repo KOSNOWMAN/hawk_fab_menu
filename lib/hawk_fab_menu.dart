@@ -163,6 +163,7 @@ class _HawkFabMenuState extends State<HawkFabMenu>
       top: 20,
       right: 10,
       child: FloatingActionButton(
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(16.0))),
         child: AnimatedIcon(
           icon: AnimatedIcons.menu_close,
           progress: _iconAnimationTween,
