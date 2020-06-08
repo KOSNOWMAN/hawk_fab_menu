@@ -167,7 +167,7 @@ class _HawkFabMenuState extends State<HawkFabMenu>
           icon: AnimatedIcons.menu_close,
           progress: _iconAnimationTween,
         ),
-        backgroundColor: Theme.of(context).primaryColor,
+        backgroundColor: colorAccent,
         onPressed: _toggleOpen,
       ),
     );
